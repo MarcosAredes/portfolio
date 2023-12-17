@@ -1,248 +1,349 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+   <head>
+      <!--codigo do googlefonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap"
+         rel="stylesheet"
+      />
+      <!--linkbootstrap-->
+      <script
+         src="https://kit.fontawesome.com/1d119343a4.js"
+         crossorigin="anonymous"
+      ></script>
+      <!--Fimlinkbootstrap-->
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./portfolio.css" />
+      <script src="css.js" defer></script>
+      <script src="portfolio.js"></script>
+      <link rel="shortcut icon" href="_img/favicon.ico" type="image/x-icon" />
 
-<head>
-  <!--codigo do googlefonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
-  <!--linkbootstrap-->
-  <script src="https://kit.fontawesome.com/1d119343a4.js" crossorigin="anonymous"></script>
-  <!--Fimlinkbootstrap-->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./portfolio.css">
-  <script src="css.js" defer></script>
-  <script src="portfolio.js"></script>
-  <link rel="shortcut icon" href="_img/favicon.ico" type="image/x-icon">
+      <title>MASS</title>
+   </head>
 
-  <title>MASS</title>
-</head>
-
-<body>
-  <!--Cabeçalho-->
-  <header>
-    <div class="interface">
-      <div class="logo">
-        <a name="interface">
-          <img src="_img/teste2.png" alt="Logo">
-        </a>
-      </div><!--logo-->
-
-      <nav class="menu-desktop">
-        <ul>
-          <li><a href="#Inicio">Inicio</a></li>
-          <li><a href="#especialidades">Especialidades</a></li>
-          <li><a href="#Sobre">Sobre</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-        </ul>
-      </nav>
-
-      <div class="mass_contato">
-        <a href="#formulario">
-          <button>Contato</button>
-        </a>
-      </div>
-
-      <div class="abrir_menu" id="abrir_menu">
-        <i class="fa-solid fa-list fa-beat fa-lg"></i>
-      </div>
-
-      <div class="menu_mobile" id="menu_mobile">
-        <div class="fechar_menu">
-          <i class="fa-sharp fa-regular fa-x fa-lg"></i>
-        </div> <!-- fechar_menu -->
-
-        <nav>
-          <ul>
-            <li><a href="#Inicio">Inicio</a></li>
-            <li><a href="#especialidades">Especialidades</a></li>
-            <li><a href="#Sobre">Sobre</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#formulario">Contato</a></li>
-          </ul>
-        </nav>
-
-      </div> <!--menu_mobile -->
-
-      <div class="overlay_menu" id="overlay_menu">
-
-      </div>
-
-
-
-
-
-    </div><!--Fim da interface-->
-
-
-
-    <!--fim do cabeçalho-->
-  </header>
-
-  <main>
-    <section class="topo_do_site"><!--inicio-->
-      <a name="Inicio"></a>
-      <div class="interface">
-        <div class="flex">
-          <div class="txt_topo_site">
-
-            <h1>TRANSFORMANDO PALAVRAS EM CÓDIGOS<span>.</span></h1>
-            
-            <p>
-              Criatividade e inovação andam lado a lado. Com funcionalidade intuitiva e otimização para resultados.
-            </p>
-            
-              <div class="mass_contato">
-              <a href="#formulario">
-                <button>Entre em contato</button>
-              </a>
+   <body>
+      <!--Cabeçalho-->
+      <header>
+         <div class="interface">
+            <div class="logo">
+               <a name="interface">
+                  <img src="_img/teste2.png" alt="Logo" />
+               </a>
             </div>
-          </div><!--txt_topo_site-->
-        
-        </div><!--flex-->
-      </div><!--fimInterface-->
-    </section><!--fim-->
+            <!--logo-->
 
-    <section class="especialidades"><!--inicio-->
-      <a name="especialidades"></a>
-      <div class="interface">
-        <h2 class="titulo">MINHAS <span>ESPECIALIDADES</span></h2>
-        <div class="flex">
-          <div class="especialidades_box">
-            <i class="fa-brands fa-java fa-fade fa-xl"></i>
-            <h3 class="titulo">Java</h3>
-            <p>É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e
-              software empresarial até aplicações de big data e tecnologias do servidor.Por ser popular no
-              desenvolvimento de sites e aplicativos para qualquer tipo de hardware, é uma das linguagens mais
-              relevantes do meio.</p>
-          </div><!--especialidades_box-->
+            <nav class="menu-desktop">
+               <ul>
+                  <li><a href="#Inicio">Inicio</a></li>
+                  <li><a href="#especialidades">Especialidades</a></li>
+                  <li><a href="#Sobre">Sobre</a></li>
+                  <li><a href="#projetos">Projetos</a></li>
+               </ul>
+            </nav>
 
-          <div class="especialidades_box">
-            <i class="fa-regular fa-c fa-fade fa-xl"> </i> <i class="fa-sharp fa-light fa-hashtag fa-fade fa-lg"></i>
-            <h3 class="titulo">C#</h3>
-            <p>é uma linguagem de programação, multiparadigma, de tipagem forte, 
-              desenvolvida pela Microsoft como parte da plataforma .NET. A sua sintaxe orientada a objetos foi baseada 
-              no C++ mas inclui muitas influências de outras linguagens de programação, como Object Pascal e, 
-              principalmente, Java. </p>
-          </div><!--especialidades_box-->
+            <div class="mass_contato">
+               <a href="#formulario">
+                  <button>Contato</button>
+               </a>
+            </div>
 
-          <div class="especialidades_box">
-            <i class="fa-brands fa-python fa-fade fa-xl"></i>
-            <h3 class="titulo">Python</h3>
-            <p>Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software,
-              ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de
-              aprender e pode ser executada em muitas plataformas diferentes. Os usos mais comuns da linguagem Python
-              incluem desenvolvimento web, automação, testagem de software, análise de dados, machine learning e
-              desenvolvimento de jogos.</p>
-          </div><!--especialidades_box-->
+            <div class="abrir_menu" id="abrir_menu">
+               <i class="fa-solid fa-list fa-beat fa-lg"></i>
+            </div>
 
-        </div><!--flex-->
-      </div><!--interface-->
-    </section><!--fim-->
+            <div class="menu_mobile" id="menu_mobile">
+               <div class="fechar_menu">
+                  <i class="fa-sharp fa-regular fa-x fa-lg"></i>
+               </div>
+               <!-- fechar_menu -->
 
-    <section class="sobre">
-      <div class="interface">
-        <a name="Sobre"></a>
-        <div class="flex">
+               <nav>
+                  <ul>
+                     <li><a href="#Inicio">Inicio</a></li>
+                     <li><a href="#especialidades">Especialidades</a></li>
+                     <li><a href="#Sobre">Sobre</a></li>
+                     <li><a href="#projetos">Projetos</a></li>
+                     <li><a href="#formulario">Contato</a></li>
+                  </ul>
+               </nav>
+            </div>
+            <!--menu_mobile -->
 
-          <div class="txt_sobre">
-            <h2 class="sobre">MUITO PRAZER, <span>SOU MARCOS AREDES.</span></h2>
-            <p>Sou estudante de Engenharia de Software na Unopar, gosto muito de programar em Python pela facilidade de mexer com machine learning
-              e deep learning, também sei um  pouco de Java (Pretendo aprimorar), e bem pouco de C# (Pretendo Aprender mais), 
-              com facilidade de aprender as coisas da minha área.
-            </p>
-            <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            <div class="overlay_menu" id="overlay_menu"></div>
+         </div>
+         <!--Fim da interface-->
+
+         <!--fim do cabeçalho-->
+      </header>
+
+      <main>
+         <section class="topo_do_site">
+            <!--inicio-->
+            <a name="Inicio"></a>
+            <div class="interface">
+               <div class="flex">
+                  <div class="txt_topo_site">
+                     <h1>TRANSFORMANDO PALAVRAS EM CÓDIGOS<span>.</span></h1>
+
+                     <p>
+                        Criatividade e inovação andam lado a lado. Com
+                        funcionalidade intuitiva e otimização para resultados.
+                     </p>
+
+                     <div class="mass_contato">
+                        <a href="#formulario">
+                           <button>Entre em contato</button>
+                        </a>
+                     </div>
+                  </div>
+                  <!--txt_topo_site-->
+               </div>
+               <!--flex-->
+            </div>
+            <!--fimInterface-->
+         </section>
+         <!--fim-->
+
+         <section class="especialidades">
+            <!--inicio-->
+            <a name="especialidades"></a>
+            <div class="interface">
+               <h2 class="titulo">MINHAS <span>ESPECIALIDADES</span></h2>
+               <div class="flex">
+                  <div class="especialidades_box">
+                     <i class="fa-sharp fa-light fa-t fa-fade fa-lg"></i
+                     ><i class="fa-sharp fa-light fa-s fa-fade fa-lg"></i>
+                     <h3 class="titulo">TypeScript</h3>
+                     <p>
+                        É uma linguagem de programação de código aberto
+                        desenvolvida pela Microsoft que é uma extensão do
+                        JavaScript. Ela adiciona recursos avançados ao
+                        JavaScript, como a tipagem estática e interfaces,
+                        tornando mais fácil detectar e prevenir erros durante a
+                        fase de desenvolvimento.
+                     </p>
+                  </div>
+                  <!--especialidades_box-->
+
+                  <div class="especialidades_box">
+                     <i class="fa-light fa-c fa-fade fa-xl"> </i>
+                     <i class="fa-sharp fa-light fa-hashtag fa-fade fa-lg"></i>
+                     <h3 class="titulo">C#</h3>
+                     <p>
+                        é uma linguagem de programação, multiparadigma, de
+                        tipagem forte, desenvolvida pela Microsoft como parte da
+                        plataforma .NET. A sua sintaxe orientada a objetos foi
+                        baseada no C++ mas inclui muitas influências de outras
+                        linguagens de programação, como Object Pascal e,
+                        principalmente, Java.
+                     </p>
+                  </div>
+                  <!--especialidades_box-->
+
+                  <div class="especialidades_box">
+                     <i class="fa-brands fa-python fa-fade fa-xl"></i>
+                     <h3 class="titulo">Python</h3>
+                     <p>
+                        Python é uma linguagem de programação amplamente usada
+                        em aplicações da Web, desenvolvimento de software,
+                        ciência de dados e machine learning (ML). Os
+                        desenvolvedores usam o Python porque é eficiente e fácil
+                        de aprender e pode ser executada em muitas plataformas
+                        diferentes. Os usos mais comuns da linguagem Python
+                        incluem desenvolvimento web, automação, testagem de
+                        software, análise de dados, machine learning e
+                        desenvolvimento de jogos.
+                     </p>
+                  </div>
+                  <!--especialidades_box-->
+               </div>
+               <!--flex-->
+            </div>
+            <!--interface-->
+         </section>
+         <!--fim-->
+
+         <section class="sobre">
+            <div class="interface">
+               <a name="Sobre"></a>
+               <div class="flex">
+                  <div class="txt_sobre">
+                     <h2 class="sobre">
+                        MUITO PRAZER, <span>SOU MARCOS AREDES.</span>
+                     </h2>
+                     <p>
+                        Sou estudante de Engenharia de Software na Unopar, gosto
+                        muito de programar em Python pela facilidade de mexer
+                        com machine learning e deep learning, também sei um
+                        pouco de Java (Pretendo aprimorar), e bem pouco de C#
+                        (Pretendo Aprender mais), com facilidade de aprender as
+                        coisas da minha área.
+                     </p>
+                     <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
               ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
               fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
               mollit anim id est laborum</p>-->
-            <div class="mass_social"> 
-              <a href="https://www.linkedin.com/in/marcos-aredes/" target="_blank"><button><i
-                    class="fa-brands fa-linkedin-in fa-beat fa-xl"></i></button></a>
+                     <div class="mass_social">
+                        <a
+                           href="https://www.linkedin.com/in/marcos-aredes/"
+                           target="_blank"
+                           ><button>
+                              <i
+                                 class="fa-brands fa-linkedin-in fa-beat fa-xl"
+                              ></i></button
+                        ></a>
 
-              <a href="https://github.com/MarcosAredes" target="_blank"><button><i
-                    class="fa-brands fa-github fa-beat fa-xl"></i></button></a>
-            </div><!--mass_social-->
-          </div><!--txt_sobre-->
-        </div><!--Flex-->
-      </div><!--interface-->
-    </section><!--sobre-->
+                        <a
+                           href="https://github.com/MarcosAredes"
+                           target="_blank"
+                           ><button>
+                              <i
+                                 class="fa-brands fa-github fa-beat fa-xl"
+                              ></i></button
+                        ></a>
+                     </div>
+                     <!--mass_social-->
+                  </div>
+                  <!--txt_sobre-->
+               </div>
+               <!--Flex-->
+            </div>
+            <!--interface-->
+         </section>
+         <!--sobre-->
 
-    <section class="portfolio">
-      <div class="interface">
-        <a name="projetos"></a>
-        <h2 class="titulo">MEU <span>PORTFÓLIO.</span> </h2>
-        <div class="flex">
-         <div class="img_portfolio" style="background-image: url(_img/Obra.png);"> 
-            <div class="overlay">Projeto Java</div>
-          </div><!--img_portfolio-->
+         <section class="portfolio">
+            <div class="interface">
+               <a name="projetos"></a>
+               <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+               <div class="flex">
+                  <div
+                     class="img_portfolio"
+                     style="background-image: url(_img/Obra.png)"
+                  >
+                     <div class="overlay">Projeto Java</div>
+                  </div>
+                  <!--img_portfolio-->
 
-          <div class="img_portfolio" style="background-image: url(_img/Obra.png);">
-            <div class="overlay">Projeto JavaScript</div>
-          </div><!--img_portfolio-->
+                  <div
+                     class="img_portfolio"
+                     style="background-image: url(_img/Obra.png)"
+                  >
+                     <div class="overlay">Projeto JavaScript</div>
+                  </div>
+                  <!--img_portfolio-->
 
-          <div class="img_portfolio" style="background-image: url(_img/Obra.png);"> 
-            <div class="overlay">Projeto Python</div>
-          </div><!--img_portfolio-->
+                  <div
+                     class="img_portfolio"
+                     style="background-image: url(_img/Obra.png)"
+                  >
+                     <div class="overlay">Projeto Python</div>
+                  </div>
+                  <!--img_portfolio-->
+               </div>
+               <!--flex-->
+            </div>
+            <!--interface-->
+         </section>
+         <!--section-->
 
-        </div><!--flex-->
-      </div><!--interface-->
-    </section><!--section-->
+         <section class="formulario">
+            <a name="formulario"></a>
+            <div class="interface">
+               <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
+               <form
+                  method="post"
+                  id="form"
+                  action="https://formsubmit.co/marcosaredessantos@gmail.com"
+               >
+                  <input
+                     type="text"
+                     name="nome"
+                     id="nome"
+                     placeholder="Nome:"
+                     required
+                  />
 
-    <section class="formulario">
-      <a name="formulario"></a>
-      <div class="interface">
+                  <input
+                     type="text"
+                     name="email"
+                     id="email"
+                     placeholder="E-mail:"
+                     required
+                  />
 
-        <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+                  <input
+                     type="text"
+                     name="numero"
+                     id="numero"
+                     placeholder="Celular:"
+                  />
 
-        <form method="post" id="form" action="https://formsubmit.co/marcosaredessantos@gmail.com">
+                  <textarea
+                     name="mensagem"
+                     id="mensagem"
+                     cols=""
+                     rows=""
+                     placeholder="Sua mensagem:"
+                     required
+                  ></textarea>
 
-          <input type="text" name="nome" id="nome" placeholder="Nome:" required>
+                  <div class="mass_enviar">
+                     <input type="submit" value="ENVIAR!" id="button" />
+                  </div>
+               </form>
+            </div>
+            <!--interface-->
+         </section>
+         <!--section-->
+      </main>
 
-          <input type="text" name="email" id="email" placeholder="E-mail:" required>
+      <footer>
+         <div class="interface">
+            <div class="line_footer">
+               <div class="flex">
+                  <div class="logo_footer">
+                     <img src="_img/teste2.png" alt="Logo" />
+                  </div>
+                  <div class="mass_social">
+                     <a
+                        href="https://www.linkedin.com/in/marcos-aredes/"
+                        target="_blank"
+                        ><button>
+                           <i
+                              class="fa-brands fa-linkedin-in fa-beat fa-xl"
+                           ></i></button
+                     ></a>
 
-          <input type="text" name="numero" id="numero" placeholder="Celular:">
+                     <a href="https://github.com/MarcosAredes" target="_blank"
+                        ><button>
+                           <i
+                              class="fa-brands fa-github fa-beat fa-xl"
+                           ></i></button
+                     ></a>
+                  </div>
+                  <!--mass_social-->
+               </div>
+               <!--flex-->
+            </div>
+            <!--line_footer-->
 
-          <textarea name="mensagem" id="mensagem" cols="" rows="" placeholder="Sua mensagem:" required></textarea>
-
-          <div class="mass_enviar">
-            <input type="submit" value="ENVIAR!" id="button">
-          </div>
-
-        </form>
-
-      </div><!--interface-->
-    </section><!--section-->
-
-  </main>
-
-  <footer>
-    <div class="interface">
-
-      <div class="line_footer">
-        <div class="flex">
-          <div class="logo_footer"><img src="_img/teste2.png" alt="Logo"></div>
-          <div class="mass_social">
-            <a href="https://www.linkedin.com/in/marcos-aredes/" target="_blank"><button><i
-                  class="fa-brands fa-linkedin-in fa-beat fa-xl"></i></button></a>
-
-            <a href="https://github.com/MarcosAredes" target="_blank"><button><i
-                  class="fa-brands fa-github fa-beat fa-xl"></i></button></a>
-          </div><!--mass_social-->
-        </div><!--flex-->
-      </div><!--line_footer-->
-
-      <div class="line_footer borda">
-        <p><i class="fa-sharp fa-solid fa-envelope fa-beat fa-xl"></i> <a
-            href="mailto:marcosaredessantos@gmail.com">marcosaredessantos@gmail.com</a></p>
-      </div><!--line_footer-->
-
-    </div><!--interface-->
-  </footer>
-
-</body>
-
+            <div class="line_footer borda">
+               <p>
+                  <i class="fa-sharp fa-solid fa-envelope fa-beat fa-xl"></i>
+                  <a href="mailto:marcosaredessantos@gmail.com"
+                     >marcosaredessantos@gmail.com</a
+                  >
+               </p>
+            </div>
+            <!--line_footer-->
+         </div>
+         <!--interface-->
+      </footer>
+   </body>
 </html>
