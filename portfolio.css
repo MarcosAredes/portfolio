@@ -245,7 +245,7 @@ section.especialidades .flex {
   margin: 15px 0;
 }
 
-/*Skills*/
+/*Skills
 
 .skills{
   width: 600px;
@@ -298,9 +298,9 @@ section.especialidades .flex {
   width: 30%;
   animation: typescript 3s ;
 
-}
+}*/
 
-/*kayframes skills*/
+/*kayframes skills
 
 @keyframes python {
   0%{
@@ -333,7 +333,7 @@ section.especialidades .flex {
     width: 30%;
   }
   
-}
+}*/
 
 
 
