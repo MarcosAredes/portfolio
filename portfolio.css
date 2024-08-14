@@ -1,248 +1,244 @@
 /*estilo geral*/
+
 * {
-  margin: 0%;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Pixelify Sans', sans-serif;
+   margin: 0%;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Caveat";
 }
 
 body {
-  background-color: black;
-  height: 100vh;
+   background-color: rgb(0, 0, 0);
+   height: 100vh;
 }
 
 .interface {
-  max-width: 1280px;
-  margin: 0 auto;
+   max-width: 1280px;
+   margin: 0 auto;
+}
+
+.menu-desktop {
+   font-size: 20px;
 }
 
 .flex {
-  display: flex;
+   display: flex;
 }
 
 .mass_contato button {
-  padding: 10px 40px;
-  font-size: 18px;
-  font-weight: 500;
-  background-color: yellow;
-  border: 0;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: .2;
+   padding: 10px 40px;
+   font-size: 19px;
+   font-weight: 500;
+   background-color: yellow;
+   border: 0;
+   border-radius: 30px;
+   cursor: pointer;
+   transition: 0.2;
 }
 
 button:hover,
 form .mass_enviar input:hover {
-  box-shadow: 0px 0px 8px rgb(255, 255, 0);
-  transform: scale(1.05);
+   box-shadow: 0px 0px 8px rgb(255, 255, 0);
+   transform: scale(1.05);
 }
 
 h2.titulo {
-  color: white;
-  font-size: 33px;
-  text-align: center;
+   color: white;
+   font-size: 33px;
+   text-align: center;
 }
 
 h2.titulo span {
-  color: yellow;
+   color: yellow;
 }
 
 h3.titulo {
-  color: white;
+   color: white;
 }
 
 /* cabeçalho */
 
-
 header {
-  padding: 40px 4%;
+   padding: 40px 4%;
 }
 
-header>.interface {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+header > .interface {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
 
 header a {
-  color: rgb(71, 71, 2);
-  text-decoration: none;
-  display: inline-block;
-  transition: .2;
+   color: rgb(71, 71, 2);
+   text-decoration: none;
+   display: inline-block;
+   transition: 0.2;
 }
 
 header nav.menu-desktop a:hover {
-  color: yellow;
-  transform: scale(1.05);
+   color: yellow;
+   transform: scale(1.05);
 }
 
 header nav ul {
-  list-style-type: none;
+   list-style-type: none;
 }
 
-
 header nav.menu-desktop ul li {
-  display: inline-block;
-  padding: 0 40px;
+   display: inline-block;
+   padding: 0 40px;
 }
 
 /* Estilo Menu mobile */
 
 .abrir_menu i {
-  display: none;
+   display: none;
 }
 
 .abrir_menu i {
-  color: yellow;
-  font-size: 28px;
+   color: yellow;
+   font-size: 28px;
 }
 
 .abrir_menu i:hover {
-  color: #fff;
+   color: #fff;
 }
 
-
 .menu_mobile {
-  background-color: black;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 99999;
-  width: 0%;
-  overflow: hidden;
-  transition: .5s;
+   background-color: black;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   right: 0;
+   z-index: 99999;
+   width: 0%;
+   overflow: hidden;
+   transition: 0.5s;
 }
 
 .menu_mobile.open_main {
-  width: 70%;
+   width: 70%;
 }
 
-.menu_mobile.open_main~.overlay_menu {
-  display: block;
+.menu_mobile.open_main ~ .overlay_menu {
+   display: block;
 }
 
 .menu_mobile .fechar_menu i {
-  color: yellow;
-  font-size: 30px;
-
+   color: yellow;
+   font-size: 30px;
 }
 
 .menu_mobile .fechar_menu i:hover {
-  color: #fff;
+   color: #fff;
 }
 
 .menu_mobile .fechar_menu {
-  padding: 20px 7%;
+   padding: 20px 7%;
 }
 
 .menu_mobile nav ul {
-  text-align: right;
+   text-align: right;
 }
 
 .menu_mobile nav ul li a {
-  color: yellow;
-  font-size: 20px;
-  font-weight: 300;
-  padding: 20px 8%;
-  display: block;
+   color: yellow;
+   font-size: 20px;
+   font-weight: 300;
+   padding: 20px 8%;
+   display: block;
 }
 
 .menu_mobile nav ul li a:hover {
-  color: #fff;
+   color: #fff;
 }
 
 .overlay_menu {
-  background-color: #000000a7;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 88888;
-  display: none;
+   background-color: #000000a7;
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 88888;
+   display: none;
 }
-
-
-
-
-
 
 /* topo do site */
 
 section.topo_do_site {
-  padding: 40px 20px;
+   padding: 40px 20px;
 }
 
 section.topo_do_site .flex {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  gap: 90px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   gap: 90px;
 }
 
 .topo_do_site h1 {
-  color: rgba(255, 255, 0, 0.748);
-  font-size: 32px;
-  line-height: 33px;
+   color: rgba(255, 255, 0, 0.748);
+   font-size: 32px;
+   line-height: 33px;
 }
 
 .topo_do_site .txt_topo_site h1 span {
-  color: white;
-  font-size: 52px;
+   color: white;
+   font-size: 52px;
 }
 
 .topo_do_site .txt_topo_site p {
-  color: rgba(255, 255, 0, 0.748);
-  margin: 40px 0
+   color: rgba(255, 255, 0, 0.748);
+   margin: 40px 0;
 }
 
 .topo_do_site .img_topo_site img {
-  position: relative;
-  animation: flutuar 2s ease-in-out infinite alternate;
+   position: relative;
+   animation: flutuar 2s ease-in-out infinite alternate;
 }
 
 @keyframes flutuar {
-  0% {
-    top: 0;
-  }
+   0% {
+      top: 0;
+   }
 
-  100% {
-    top: 30px;
-  }
+   100% {
+      top: 30px;
+   }
 }
 
 /*ESPECIALIDADES*/
 
 section.especialidades {
-  padding: 40px 4%;
+   padding: 40px 4%;
 }
 
 section.especialidades .flex {
-  gap: 55px;
+   gap: 55px;
 }
 
 .especialidades .especialidades_box {
-  color: yellow;
-  padding: 50px;
-  border-radius: 27%;
-  margin-top: 45px;
-  transition: .2s;
+   color: yellow;
+   padding: 50px;
+   border-radius: 27%;
+   margin-top: 45px;
+   transition: 0.2s;
 }
 
 .especialidades .especialidades_box:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px yellow;
+   transform: scale(1.05);
+   box-shadow: 0 0 15px yellow;
 }
 
 .especialidades .especialidades_box i {
-  color: yellow;
-  font-size: 33px;
+   color: yellow;
+   font-size: 33px;
 }
 
 .especialidades .especialidades_box h3 {
-  font-size: 27px;
-  margin: 15px 0;
+   font-size: 27px;
+   margin: 15px 0;
 }
 
 /*Skills
@@ -335,291 +331,269 @@ section.especialidades .flex {
   
 }*/
 
-
-
-
-
 /*SOBRE*/
 
 section.sobre {
-  padding: 50px 4%;
+   padding: 50px 4%;
 }
 
 section.sobre .flex {
-  align-items: center;
-  gap: 60px;
+   align-items: center;
+   gap: 60px;
 }
 
 .sobre .txt_sobre {
-  color: yellow;
+   color: yellow;
 }
 
 .sobre .txt_sobre h2 {
-  color: white;
-  font-size: 33px;
-  line-height: 32px;
-  margin-bottom: 25px;
+   color: white;
+   font-size: 33px;
+   line-height: 32px;
+   margin-bottom: 25px;
 }
 
 .sobre .txt_sobre h2 span {
-  color: yellow;
-  display: block;
+   color: yellow;
+   display: block;
 }
 
 .sobre .txt_sobre p {
-  margin: 30px 0;
-  text-align: justify;
+   margin: 30px 0;
+   text-align: justify;
 }
 
 .mass_social button {
-  width: 60px;
-  height: 60px;
-  border-radius: 30px;
-  border: 0;
-  background-color: yellow;
-  font-size: 15px;
-  cursor: pointer;
-  margin: 0 9px;
-  transition: .2s;
+   width: 60px;
+   height: 60px;
+   border-radius: 30px;
+   border: 0;
+   background-color: yellow;
+   font-size: 15px;
+   cursor: pointer;
+   margin: 0 9px;
+   transition: 0.2s;
 }
 
 /* ESTILO DO PORTFOLIO*/
 
 section.portfolio {
-  padding: 80px 4%;
-  box-shadow: 0 0 40px 10px rgba(255, 255, 0, 0.093);
+   padding: 80px 4%;
+   box-shadow: 0 0 40px 10px rgba(255, 255, 0, 0.093);
 }
 
 section.portfolio .flex {
-  gap: 40px;
-  margin-top: 60px;
+   gap: 40px;
+   margin-top: 60px;
 }
 
-
-
 .img_portfolio {
-  width: 360px;
-  height: 460px;
-  background-size: cover;
-  background-position: 100% 0%;
-  transition: 8s;
-  cursor: pointer;
-  border-radius: 40px;
-  position: relative;
+   width: 360px;
+   height: 460px;
+   background-size: cover;
+   background-position: 100% 0%;
+   transition: 8s;
+   cursor: pointer;
+   border-radius: 40px;
+   position: relative;
 }
 
 .img_portfolio:hover {
-  background-position: 100% 100%;
+   background-position: 100% 100%;
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #000000b8;
-  border-radius: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
-  font-weight: 600;
-  color: yellow;
-  opacity: 0;
-  transition: .5s;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #000000b8;
+   border-radius: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 20px;
+   font-weight: 600;
+   color: yellow;
+   opacity: 0;
+   transition: 0.5s;
 }
 
 .overlay:hover {
-  opacity: 1;
+   opacity: 1;
 }
 
 /*FORMULARIO*/
 
 section.formulario {
-  padding: 80px 4%;
+   padding: 80px 4%;
 }
 
 form {
-  max-width: 500px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 40px;
+   max-width: 500px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   gap: 10px;
+   margin-top: 40px;
 }
 
 form input,
 form textarea {
-  width: 100%;
-  background-color: rgb(36, 36, 36);
-  border: 0;
-  outline: 0;
-  padding: 20px 15px;
-  border-radius: 25px;
-  color: yellow;
-  font-size: 17px;
+   width: 100%;
+   background-color: rgb(36, 36, 36);
+   border: 0;
+   outline: 0;
+   padding: 20px 15px;
+   border-radius: 25px;
+   color: yellow;
+   font-size: 17px;
 }
 
 form input::placeholder {
-  color: white;
+   color: white;
 }
 
 form textarea {
-  resize: none;
-  max-height: 200px;
+   resize: none;
+   max-height: 200px;
 }
 
-
 form textarea::placeholder {
-  color: white;
+   color: white;
 }
 
 form .mass_enviar {
-  margin-top: 20px;
-  text-align: center;
+   margin-top: 20px;
+   text-align: center;
 }
 
 form .mass_enviar input {
-  width: 120px;
-  background-color: yellow;
-  color: black;
-  font-weight: 600;
-  cursor: pointer;
-  transition: .2s;
+   width: 120px;
+   background-color: yellow;
+   color: black;
+   font-weight: 600;
+   cursor: pointer;
+   transition: 0.2s;
 }
 
 /*FOOTER*/
 
 footer {
-  padding: 40px 4%;
-  box-shadow: 0 0 40px 10px rgba(255, 255, 0, 0.093);
+   padding: 40px 4%;
+   box-shadow: 0 0 40px 10px rgba(255, 255, 0, 0.093);
 }
 
 footer .flex {
-  justify-content: space-between;
+   justify-content: space-between;
 }
 
 footer .line_footer {
-  padding: 20px 0;
+   padding: 20px 0;
 }
 
 .borda {
-  border-top: 2px solid yellow;
+   border-top: 2px solid yellow;
 }
 
 footer .line_footer p i {
-  color: yellow;
-  font-size: 22px;
+   color: yellow;
+   font-size: 22px;
 }
 
 footer .line_footer p a {
-  color: #fff;
+   color: #fff;
 }
 
-
 @media screen and (max-width: 1010px) {
+   /* Classe gerais */
+   .flex {
+      flex-direction: column;
+   }
 
-  /* Classe gerais */
-  .flex {
-    flex-direction: column;
-  }
+   .topo_do_site .flex {
+      flex-direction: column-reverse;
+   }
 
-  .topo_do_site .flex {
-    flex-direction: column-reverse;
-  }
+   h2.titulo {
+      font-size: 28px;
+      line-height: 30px;
+   }
 
-  h2.titulo {
-    font-size: 28px;
-    line-height: 30px;
-  }
+   /* cabeçalho */
 
+   .menu-desktop,
+   .mass_contato {
+      display: none;
+   }
 
-  /* cabeçalho */
+   /* TOPO DO SITE */
+   .topo_do_site h1 {
+      font-size: 29px;
+   }
 
-  .menu-desktop,
-  .mass_contato {
-    display: none;
-  }
+   section.topo_do_site {
+      padding: 40px 8%;
+   }
 
+   .topo_do_site .img_topo_site img {
+      width: 105%;
+   }
 
-  /* TOPO DO SITE */
-  .topo_do_site h1 {
-    font-size: 29px;
-  }
+   /* Minhas especialidades */
 
+   section.especialidades {
+      padding: 40px 10%;
+   }
 
-  section.topo_do_site {
-    padding: 40px 8%;
-  }
+   /*SOBRE*/
 
+   section.sobre {
+      padding: 50px 8%;
+   }
 
-  .topo_do_site .img_topo_site img {
-    width: 105%;
-  }
+   .sobre .txt_sobre h2 {
+      font-size: 28px;
+      line-height: 30px;
+      text-align: center;
+   }
 
-  /* Minhas especialidades */
+   .mass_social {
+      text-align: center;
+   }
 
-  section.especialidades {
-    padding: 40px 10%;
+   .img_sobre img {
+      width: 100%;
+   }
 
-  }
+   /* PORTIFOILIO */
 
+   section.portfolio {
+      padding: 80px 8%;
+      box-shadow: 0 0 40px 10px rgba(255, 255, 0, 0.093);
+   }
 
-  /*SOBRE*/
+   .img_portfolio {
+      width: 100%;
+      max-width: 360px;
+      margin: 0 auto;
+   }
 
-  section.sobre {
-    padding: 50px 8%;
-  }
+   /* Roda pé */
 
+   footer .flex {
+      flex-direction: column;
+   }
 
-  .sobre .txt_sobre h2 {
-    font-size: 28px;
-    line-height: 30px;
-    text-align: center;
-  }
+   footer .line_footer {
+      text-align: center;
+   }
 
-  .mass_social {
-    text-align: center;
-  }
+   /* MOBILE */
 
-  .img_sobre img {
-    width: 100%;
-  }
-
-  /* PORTIFOILIO */
-
-  section.portfolio {
-    padding: 80px 8%;
-    box-shadow: 0 0 40px 10px rgba(255, 255, 0, 0.093);
-  }
-
-  .img_portfolio {
-    width: 100%;
-    max-width: 360px;
-    margin: 0 auto;
-  }
-
-  /* Roda pé */
-
-  footer .flex {
-    flex-direction: column;
-  }
-
-
-  footer .line_footer {
-    text-align: center;
-  }
-
-  /* MOBILE */
-
-  .abrir_menu i {
-    display: block;
-  }
-
-
-
-
-
+   .abrir_menu i {
+      display: block;
+   }
 }
