@@ -240,6 +240,9 @@ section.especialidades .flex {
    font-size: 27px;
    margin: 15px 0;
 }
+.especialidades .especialidades_box p {
+   font-size: 18px;
+}
 
 /*Skills
 
@@ -361,6 +364,7 @@ section.sobre .flex {
 .sobre .txt_sobre p {
    margin: 30px 0;
    text-align: justify;
+   font-size: 20px;
 }
 
 .mass_social button {
