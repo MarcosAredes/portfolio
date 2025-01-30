@@ -1,4 +1,4 @@
-# 🖥️ Portfólio de Marcos Aredes
+# 🖥️ Marcos Aredes
 
 Bem-vindo ao meu portfólio! Aqui você encontrará projetos que desenvolvi utilizando diferentes tecnologias, demonstrando minhas habilidades em programação e ciência de dados.
 
